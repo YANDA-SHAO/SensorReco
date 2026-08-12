@@ -1,4 +1,4 @@
-# A Resource-Constrained Sensor Recommendation Framework for AI-Based Structural Health Monitoring
+# A Resource-Constrained Sensor Recommendation Framework for AI-Based SHM
 
 This repository provides the research implementation for Gated Sensor Ranking (GSR). 
 The release includes GSR and all six comparison procedures used in the
