@@ -1,12 +1,6 @@
 # Gated Sensor Ranking for Deployment-Oriented Sensor Recommendation
 
-This repository provides the research implementation and processed Story-7
-Balanced data for Gated Sensor Ranking (GSR). The workflow learns a stochastic
-gate for every complete sensing resource, produces a frozen sensor ranking,
-re-trains task models over nested top-*k* configurations, and selects the
-smallest validation operating point retaining 95% of the best observed
-validation utility.
-
+This repository provides the research implementation for Gated Sensor Ranking (GSR). 
 The release includes GSR and all six comparison procedures used in the
 benchmark: Random, QR response diversity, grouped mRMR, Global PFI, High-error
 PFI, and retrained leave-one-resource-out (LORO). Raw HBTA data, checkpoints,
