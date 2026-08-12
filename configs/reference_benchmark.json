@@ -1,0 +1,20 @@
+{
+  "data": "data/story7_balanced.npz",
+  "output_dir": "outputs/reference_benchmark",
+  "seed": 42,
+  "pfi_repeats": 5,
+  "budgets": [1, 5, 10, 20, 40, 65],
+  "recommendation_threshold": 0.95,
+  "gsr": {
+    "lambda_gsr": 0.0001,
+    "sigma": 0.5,
+    "hidden": 128,
+    "learning_rate": 0.001,
+    "gate_learning_rate": 0.0005,
+    "lambda_warmup_epochs": 30,
+    "lambda_ramp_epochs": 70,
+    "epochs": 500,
+    "patience": 60,
+    "selected_config": "hp07_lam1em4_s0p5_wr_glr5em4"
+  }
+}
