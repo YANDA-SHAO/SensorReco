@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+dist/
+build/
+*.egg-info/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.h5
+*.npy
+*.npz
+!data/story7_double_uncertain_full.npz
